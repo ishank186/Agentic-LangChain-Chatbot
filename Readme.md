@@ -53,7 +53,9 @@ streamlit run qachatbot.py
 Your browser will open up to the app interface. Enter your Groq API key in the sidebar, select your preferred model and theme, and start chatting!
 
 # 📁 Project Structure
+
 text
+
 .
 ├── qachatbot.py        # Main Streamlit app
 ├── file.env            # Your local API keys
