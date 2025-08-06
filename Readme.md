@@ -36,10 +36,15 @@ Copy or edit the file.env provided with your own API keys, or set these directly
 At a minimum, GROQ_API_KEY is needed (get it from Groq Console).
 
 # 🔑 Environment File Example (file.env)
+
 text
-OpenAI_API_KEY = "..."            # (Optional, for OpenAI models)
-GOOGLE_API_KEY = "..."    # (Optional, for Google integrations)
-GROQ_API_KEY = "..."        # (Required: Groq API key)
+
+OpenAI_API_KEY = "..."         
+
+GOOGLE_API_KEY = "..."   
+
+GROQ_API_KEY = "..."       
+
 🏃♀️ Running The App
 Launch the Streamlit app:
 
