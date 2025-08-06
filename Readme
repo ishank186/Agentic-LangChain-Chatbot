@@ -1,7 +1,7 @@
-🧠 Agentic LangChain + Groq Chatbot
+## 🧠 Agentic LangChain + Groq Chatbot
 A fast and intelligent conversational AI chatbot built with Streamlit, LangChain, and Groq. Experience ultra-fast LLM inference using models like Llama and Gemma, manage conversation memory, toggle themes, and personalize your chat experience!
 
-🚀 Features
+# 🚀 Features
 State-of-the-art: Powered by Groq’s blazing-fast inference and LangChain’s robust LLM orchestration.
 
 Model choices: Easily switch between LLaMA and Gemma models from the sidebar.
@@ -14,7 +14,7 @@ Custom API keys: Bring your own Groq API key securely.
 
 Easy interface: Clean, intuitive Streamlit UI.
 
-🛠️ Installation
+# 🛠️ Installation
 Clone this repository
 
 bash
@@ -35,7 +35,7 @@ Copy or edit the file.env provided with your own API keys, or set these directly
 
 At a minimum, GROQ_API_KEY is needed (get it from Groq Console).
 
-🔑 Environment File Example (file.env)
+# 🔑 Environment File Example (file.env)
 text
 OpenAI_API_KEY = "..."            # (Optional, for OpenAI models)
 GOOGLE_API_KEY = "..."    # (Optional, for Google integrations)
@@ -47,7 +47,7 @@ bash
 streamlit run qachatbot.py
 Your browser will open up to the app interface. Enter your Groq API key in the sidebar, select your preferred model and theme, and start chatting!
 
-📁 Project Structure
+# 📁 Project Structure
 text
 .
 ├── qachatbot.py        # Main Streamlit app
