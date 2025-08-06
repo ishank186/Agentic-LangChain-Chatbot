@@ -56,10 +56,12 @@ Your browser will open up to the app interface. Enter your Groq API key in the s
 
 text
 
-.
 ├── qachatbot.py        # Main Streamlit app
+
 ├── file.env            # Your local API keys
+
 ├── requirements.txt    # Python dependencies
+
 └── README.md           # Project instructions
 🤝 Credits
 Streamlit
